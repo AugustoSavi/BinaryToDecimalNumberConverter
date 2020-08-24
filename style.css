@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Poppins;
-    background-color: #424242;
+    background-color: #202426;
 }
 
 .content{
@@ -35,4 +35,27 @@ input{
 input:focus{
     border-color: dodgerblue;
     box-shadow: 0 0 8px dodgerblue;
+}
+
+.btnConvert {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btnConvert:hover {
+    background-color: dodgerblue
+}
+.btnConvert:active {
+    background-color: dodgerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
